@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="intro">
+        <h2>Not-so Sarcastic</h2>
+        <h1>MoodTracker</h1>
+        <p>Welcome to our mood tracker. We collect your responses and give you a report on your average mood.</p>
+        <section class="buttons">
+        <button id="startBtn">Start Testing</button>
+        <button id="noBtn"></button>  
+        </section>
+    </section>
+
+    <section id="quiz" style="display:none;">
+        <h2 id="question"></h2>
+        <section id="answers"></section>
+      <section id="snarkyComment" style="margin-top: 20px;"></section>
+      <section class="buttons">
+        <button id="nextBtn">Next</button>
+      </section>
+    </section>
+
+    <section id="results" style="display:none;">
+        <h2>Your Result:</h2>
+      <section id="emotionCounts"></section>
+      <p id="score"></p>
+        <p id="resultMessage"></p>
+      <section class="buttons">
+      <p id="sarcasticComment"></p>
+        <button id="restartBtn">Start Over</button>
+      </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
