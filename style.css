@@ -47,7 +47,7 @@ margin-bottom:-30px;
 
 #quiz h2{
 text-align: center;}
-#quiz p{}
+#quiz ul{margin-left: -3vw;}
 p {
   text-align: left;
   width: 100%;
