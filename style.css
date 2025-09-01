@@ -173,7 +173,7 @@ section{
   gap:10px;
 }
 .footersocials img{
-  max-width:40px;
+  max-width:70px;
 }
 h1{font-family:'Century Gothic',sans-serif;}
 
@@ -216,4 +216,5 @@ h1{font-family:'Century Gothic',sans-serif;}
     gap:20px;
   }
   .dots::before{display:none;}
+
 }
